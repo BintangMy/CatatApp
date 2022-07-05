@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>CatatanKu</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+          <i class='bx bx-menu sidebarOpen' ></i>
+          <span class="logo navLogo"><a href="#">CatatApp</a></span>
+          <div class="menu">
+              <div class="logo-toggle">
+                <span class="logo"><a href="/">CatatApp </a></span>
+                <i class='bx bx-x siderbarClose'></i>
+              </div>
+
+              <ul class="nav-links">
+                  <li><a href="#home">Beranda</a></li>
+                  <li><a href="#notes">Catat</a></li>
+                  <li><a href="#footer">About</a></li>
+              </ul>
+          </div>
+          <div class="sosmed-searchBox">
+              <div class="dark-light">
+                  <a href="https://github.com/BintangMy"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.instagram.com/bintang_mochamad/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="searchBox">
+                 <div class="searchToggle">
+                  <i class='bx bx-x cancel'></i>
+                </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+    <div class="container">
+    <div class="row-nav" id="home">
+      <div class="col-2">
+        <h1 class="title">Ayo <span class="red"> Tulis</span> cerita <br> kamu disini</h1>
+          <p>"Mulailah dengan menuliskan hal-hal yang kau ketahui. Tulislah tentang pengalaman dan perasaanmu sendiri"</p>
+          <a href="#notes" class="btn">Coba Sekarang</a>
+      </div>
+       <div class="col-2">
+          <img src="blob.png" >
+       </div>
+     </div>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Judul</label>
+              <input type="text" spellcheck="false">
+            </div>
+            <div class="row description">
+              <label>Deskripsi</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper" id="notes">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Ayo tambah</p>
+      </li>
+    </div>
+    <footer id="footer">
+      <div>© 2022 Copyright
+        <a href="https://github.com/BintangMy"> BintangMy</a>
+      </div>
+    </footer>
+  </div>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
